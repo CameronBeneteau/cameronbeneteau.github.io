@@ -7,7 +7,7 @@ on:
     branches: master
 
 jobs:
-  Build-and-Publish-App:
+  build-and-publish-app:
     runs-on: ubuntu-latest
 
     steps:
