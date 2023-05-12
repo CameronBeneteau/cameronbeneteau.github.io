@@ -1,4 +1,4 @@
-name: Deploy Application
+name: Build and Publish App
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: master
 
 jobs:
-  Deploy-React-Application:
+  Build-and-Publish-App:
     runs-on: ubuntu-latest
 
     steps:
@@ -25,7 +25,7 @@ jobs:
       - name: Build application
         run: npm run build
 
-      - name: Deploy to gh-pages branch
+      - name: Publish build to gh-pages branch
         if: ${{ github.ref == 'refs/heads/master' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
