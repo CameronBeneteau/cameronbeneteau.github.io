@@ -22,9 +22,8 @@ import {
   superSmashBros,
   infected,
   superMarioBros,
-  carrent,
-  jobit,
-  tripguide,
+  personalWebsite,
+  camFinder,
   threejs,
 } from "../assets";
 
@@ -39,7 +38,7 @@ export const navLinks = [
   },
   {
     id: "projects",
-    title: "Projects"
+    title: "Projects",
   },
   {
     id: "contact",
@@ -49,20 +48,20 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Software Developer",
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
+    title: "Engineer",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Entrepreneur",
     icon: creator,
+  },
+  {
+    title: "Leader",
+    icon: mobile,
   },
 ];
 
@@ -123,66 +122,66 @@ const technologiess = [
 
 const technologies = {
   typescript: {
-    "name": "TypeScript",
-    "textCol": "#FFFFFF",
-    "backCol": "#007ACC",
+    name: "TypeScript",
+    textCol: "#FFFFFF",
+    backCol: "#007ACC",
   },
   angular: {
-    "name": "Angular",
-    "textCol": "#FFFFFF",
-    "backCol": "#DD1B16",
+    name: "Angular",
+    textCol: "#FFFFFF",
+    backCol: "#DD1B16",
   },
   githubActions: {
-    "name": "GitHub Actions",
-    "textCol": "#FFFFFF",
-    "backCol": "#171515"
+    name: "GitHub Actions",
+    textCol: "#FFFFFF",
+    backCol: "#171515",
   },
   nestjs: {
-    "name": "NestJS",
-    "textCol": "#FFFFFF",
-    "backCol": "#E0234E"
+    name: "NestJS",
+    textCol: "#FFFFFF",
+    backCol: "#E0234E",
   },
   html: {
-    "name": "HTML",
-    "textCol": "#FFFFFF",
-    "backCol": "#f06529"
+    name: "HTML",
+    textCol: "#FFFFFF",
+    backCol: "#f06529",
   },
   css: {
-    "name": "CSS",
-    "textCol": "#FFFFFF",
-    "backCol": "#264DE4"
+    name: "CSS",
+    textCol: "#FFFFFF",
+    backCol: "#264DE4",
   },
   javascript: {
-    "name": "JavaScript",
-    "textCol": "#FFFFFF",
-    "backCol": "#F0DB4F"
+    name: "JavaScript",
+    textCol: "#FFFFFF",
+    backCol: "#F0DB4F",
   },
   bootstrap: {
-    "name": "Bootstrap",
-    "textCol": "#FFFFFF",
-    "backCol": "#563D7C"
+    name: "Bootstrap",
+    textCol: "#FFFFFF",
+    backCol: "#563D7C",
   },
   react: {
-    "name": "React",
-    "textCol": "#FFFFFF",
-    "backCol": "#61DBFB"
+    name: "React",
+    textCol: "#FFFFFF",
+    backCol: "#61DBFB",
   },
   visualBasic: {
-    "name": "Visual Basic",
-    "textCol": "#FFFFFF",
-    "backCol": "#136099"
+    name: "Visual Basic",
+    textCol: "#FFFFFF",
+    backCol: "#136099",
   },
   msSql: {
-    "name": "MS SQL",
-    "textCol": "#FFFFFF",
-    "backCol": "#A91D22"
+    name: "MS SQL",
+    textCol: "#FFFFFF",
+    backCol: "#A91D22",
   },
   aws: {
-    "name": "AWS",
-    "textCol": "#FFFFFF",
-    "backCol": "#FF9900"
-  }
-}
+    name: "AWS",
+    textCol: "#FFFFFF",
+    backCol: "#FF9900",
+  },
+};
 
 const experiences = [
   {
@@ -203,8 +202,8 @@ const experiences = [
       technologies.angular,
       technologies.nestjs,
       technologies.aws,
-      technologies.githubActions
-    ]
+      technologies.githubActions,
+    ],
   },
   {
     title: "Software Developer Intern",
@@ -216,14 +215,14 @@ const experiences = [
     points: [
       "Developed and implemented front-end web components using HTML, CSS, and Bootstrap.",
       "Redesigned full stack features using JavaScript and jQuery to improve navigation and accessibility of internal & external websites generating over 1000 & 3000 daily page views.",
-      "Modified back-end process which reduced developers time in half for article posting and other duties."
+      "Modified back-end process which reduced developers time in half for article posting and other duties.",
     ],
     technologies: [
       technologies.javascript,
       technologies.html,
       technologies.css,
-      technologies.bootstrap
-    ]
+      technologies.bootstrap,
+    ],
   },
   {
     title: "Software Developer Intern",
@@ -235,15 +234,15 @@ const experiences = [
     points: [
       "Created ASP.NET web applications using React, Typescript, HTML/CSS and ASP.NET to enhance internal company practices, including user experience, user interface, and access control using Visual Studio.",
       "Reduced the wait time of user requests from hours to seconds by editing back-end processes to increase efficiency while stopping unnecessary processing.",
-      "Developed REST APIs to interface with websites and retrieve data from MS SQL Server in an efficient manner."
+      "Developed REST APIs to interface with websites and retrieve data from MS SQL Server in an efficient manner.",
     ],
     technologies: [
       technologies.typescript,
       technologies.react,
       technologies.visualBasic,
-      technologies.msSql
-    ]
-  }
+      technologies.msSql,
+    ],
+  },
 ];
 
 const testimonials = [
@@ -276,7 +275,8 @@ const testimonials = [
 const projects = [
   {
     name: "Tenacious Tanks",
-    description: "A two-player turn-based strategy game inspired by the classic arcade game 'Scorched Earth'. With every match featuring a randomly generated terrain, no two battles are ever the same.",
+    description:
+      "A two-player turn-based strategy game inspired by the classic arcade game 'Scorched Earth'. With every match featuring a randomly generated terrain, no two battles are ever the same.",
     tags: [
       {
         name: "java",
@@ -289,14 +289,15 @@ const projects = [
       {
         name: "oop",
         color: "pink-text-gradient",
-      }
+      },
     ],
     image: tenaciousTanks,
     source_code_link: "https://github.com/CameronBeneteau/Tenacious_Tanks",
   },
   {
     name: "Super Smash Bros",
-    description: "A two-player remake of the classic fighting game 'Super Smash Bros'. Players can choose their favorite character and battle on famous maps. Made during Massey Hacks IV.",
+    description:
+      "A two-player remake of the classic fighting game 'Super Smash Bros'. Players can choose their favorite character and battle on famous maps. Made during Massey Hacks IV.",
     tags: [
       {
         name: "java",
@@ -320,7 +321,8 @@ const projects = [
   },
   {
     name: "Infected",
-    description: "A turn-based strategy game inspired by the arcade game 'Chain Reaction'. Success demands careful planning and calculated moves to outsmart your opponents. Made during Massey Hacks III.",
+    description:
+      "A turn-based strategy game inspired by the arcade game 'Chain Reaction'. Success demands careful planning and calculated moves to outsmart your opponents. Made during Massey Hacks III.",
     tags: [
       {
         name: "python",
@@ -340,7 +342,8 @@ const projects = [
   },
   {
     name: "Super Mario Bros",
-    description: "A single-player platforming game inspired by the famous arcade game 'Super Mario Bros'. Features multiple levels filled with challenging obstacles and exciting collectibles.",
+    description:
+      "A single-player platforming game inspired by the famous arcade game 'Super Mario Bros'. Features multiple levels filled with challenging obstacles and exciting collectibles.",
     tags: [
       {
         name: "java",
@@ -353,15 +356,15 @@ const projects = [
       {
         name: "oop",
         color: "pink-text-gradient",
-      }
+      },
     ],
     image: superMarioBros,
     source_code_link: "https://github.com/CameronBeneteau/Super_Mario_Bros",
   },
   {
     name: "Personal Website",
-    description: "A personal portfolio showcasing my skills, work experience, projects, and more. This responsive website includes fun animations and various 3D models that bring the page to life.",
-    // "This project is a personal website created by a software engineer to showcase their skills, experience, and projects. The website features a comprehensive portfolio, a tech repository, and a blog section where the engineer shares their thoughts on emerging technologies and industry trends. Visitors can also access the engineer's resume, contact information, and social media profiles from the site.""
+    description:
+      "A personal portfolio showcasing my skills, work experience, projects, and more. This responsive website includes fun animations and various 3D models that bring the page to life.",
     tags: [
       {
         name: "react",
@@ -376,38 +379,48 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: "https://bramptonsc.com/wp-content/uploads/2018/07/TBD.jpg",
-    source_code_link: "https://github.com/CameronBeneteau/cameronbeneteau.github.io",
+    image: personalWebsite,
+    source_code_link:
+      "https://github.com/CameronBeneteau/cameronbeneteau.github.io",
   },
   {
-    name: "Job IT",
+    name: "CamFinder",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "An automation tool used to submit business proposals to potential clients on LinkedIn. With over 2000 proposals sent to date, the tool has lead to new clients and and saved over 24 hours of manual work.",
+    // description: "An automation tool used to submit business proposals to prospective clients on LinkedIn. Since creation, over 2000 proposals have been sent, resulting in clients landed and saving over 24 hours of manual work.",
     tags: [
       {
-        name: "react",
-        color: "light-blue-text-gradient",
+        name: "python",
+        color: "yellow-text-gradient",
       },
       {
-        name: "restapi",
+        name: "selenium",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
-        color: "red-text-gradient",
+        name: "linkedin",
+        color: "blue-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  }
+    image: camFinder,
+    source_code_link: "https://github.com/CameronBeneteau/CamFinder",
+  },
 ];
 
 const links = {
-  "github": "https://github.com/CameronBeneteau",
-  "linkedin": "https://www.linkedin.com/in/cameronbeneteau/",
-  "resume": "https://drive.google.com/file/d/1Wr_j08V27YnbeqgQ2-0m9rDk0eR4o7fI/view?usp=sharing",
-  "personalEmail": "cameron.bellewood@gmail.com",
-  "schoolEmail": "beneteac@mcmaster.ca"
-}
+  github: "https://github.com/CameronBeneteau",
+  linkedin: "https://www.linkedin.com/in/cameronbeneteau/",
+  resume:
+    "https://drive.google.com/file/d/1Wr_j08V27YnbeqgQ2-0m9rDk0eR4o7fI/view?usp=sharing",
+  personalEmail: "cameron.bellewood@gmail.com",
+  schoolEmail: "beneteac@mcmaster.ca",
+};
 
-export { services, technologiess as technologies, experiences, testimonials, projects, links};
+export {
+  services,
+  technologiess as technologies,
+  experiences,
+  testimonials,
+  projects,
+  links,
+};

@@ -38,26 +38,51 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
-        <h2 className={styles.sectionHeadText}>Overview.</h2>
+        <p className={styles.sectionSubText}>Who am I</p>
+        <h2 className={styles.sectionHeadText}>About Me</h2>
       </motion.div>
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in TypeScript and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I am currently in my penultimate year pursuing a double degree in
+        Mechatronics Engineering and Business at McMaster University. Throughout
+        my degree, I have gained almost two years of experience working multiple
+        software developer internships. My passion lies in developing innovative
+        solutions and increasing efficiency through optimized pipelines and
+        workflows, which I believe can add value to any organization. I am also
+        interested in areas such as data analytics, machine learning, AI, and
+        the fintech industry, particularly with quantitative analysis and
+        algorithmic trading.
       </motion.p>
 
-      <div className="mt-20 flex flex-wrap gap-10">
+      <motion.p
+        variants={fadeIn("", "", 0.3, 1)}
+        className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
+      >
+        In my free time, I enjoy staying active by working out and playing
+        sports. I am a fan of Formula 1 racing and am fascinated by the complex
+        engineering of the cars. As a software developer, I am always eager to
+        explore new technologies and collaborate with others. I have
+        participated in several hackathons as both a participant and executive
+        organizer. I also have leadership experience as a project manager for
+        the McMaster Rocketry Team, where I oversaw planning and integration of
+        the first successful high-powered rocket launch our University has ever
+        had! Check out our 3km (10,000ft){" "}
+        <u>
+          <a href="https://www.youtube.com/watch?v=4lxF2DUAMRA" target="_blank">
+            launch video
+          </a>
+        </u>
+        !
+      </motion.p>
+
+      {/* <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
           <ServiceCard key={service.title} index={index} {...service} />
         ))}
-      </div>
+      </div> */}
     </>
   );
 };

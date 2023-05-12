@@ -70,7 +70,7 @@
 .orange-text-gradient {
   background: #f12711;
   background: -webkit-linear-gradient(to top, #f12711, #f5af19);
-  background: linear-gradient(to top,  #f12711, #f5af19);
+  background: linear-gradient(to top, #f12711, #f5af19);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -113,9 +113,9 @@
 }
 
 .purple-text-gradient {
-  background: #915EFF;
-  background: -webkit-linear-gradient(to top, #915EFF, #b47afa);
-  background: linear-gradient(to top, #915EFF, #b47afa);
+  background: #915eff;
+  background: -webkit-linear-gradient(to top, #915eff, #b47afa);
+  background: linear-gradient(to top, #915eff, #b47afa);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

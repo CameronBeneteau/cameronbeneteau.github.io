@@ -6,7 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
-import { links }from "../constants/index"
+import { links } from "../constants/index";
 
 const Contact = () => {
   const formRef = useRef();
@@ -67,8 +67,8 @@ const Contact = () => {
         variants={slideIn("left", "tween", 0.2, 1)}
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
-        <p className={styles.sectionSubText}>Get in touch</p>
-        <h3 className={styles.sectionHeadText}>Contact.</h3>
+        <p className={styles.sectionSubText}>Say hello</p>
+        <h3 className={styles.sectionHeadText}>Contact</h3>
 
         <form
           ref={formRef}
@@ -110,10 +110,18 @@ const Contact = () => {
           </label>
           <div className="flex items-center justify-between gap-x-3">
             <div className="flex items-center gap-x-4">
-              <a href={links.github} target="_blank"><i className="fa-brands fa-github fa-2xl cursor-pointer"></i></a>
-              <a href={links.linkedin} target="_blank"><i className="fa-brands fa-linkedin fa-2xl cursor-pointer"></i></a>
-              <a href={links.resume} target="_blank"><i className="fa-solid fa-file-lines fa-2xl cursor-pointer"></i></a>
-              <a href={`mailto:${links.schoolEmail}`} target="_blank"><i className="fa-solid fa-envelope fa-2xl cursor-pointer"></i></a>
+              <a href={links.github} target="_blank">
+                <i className="fa-brands fa-github fa-2xl cursor-pointer"></i>
+              </a>
+              <a href={links.linkedin} target="_blank">
+                <i className="fa-brands fa-linkedin fa-2xl cursor-pointer"></i>
+              </a>
+              <a href={links.resume} target="_blank">
+                <i className="fa-solid fa-file-lines fa-2xl cursor-pointer"></i>
+              </a>
+              <a href={`mailto:${links.schoolEmail}`} target="_blank">
+                <i className="fa-solid fa-envelope fa-2xl cursor-pointer"></i>
+              </a>
             </div>
             <button
               type="submit"

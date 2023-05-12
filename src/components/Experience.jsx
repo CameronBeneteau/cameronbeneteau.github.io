@@ -59,7 +59,16 @@ const ExperienceCard = ({ experience }) => {
 
       <div className="flex flex-wrap gap-x-2">
         {experience.technologies.map((technology, index) => (
-          <p key={index} className="rounded-full pl-3 pr-3 " style={{background: technology.backCol, color: technology.textCol}}>{technology.name}</p>
+          <p
+            key={index}
+            className="rounded-full pl-3 pr-3 "
+            style={{
+              background: technology.backCol,
+              color: technology.textCol,
+            }}
+          >
+            {technology.name}
+          </p>
         ))}
       </div>
     </VerticalTimelineElement>
@@ -71,7 +80,7 @@ const Experience = () => {
     <>
       <motion.div variants={textVariant()}>
         <p className={styles.sectionSubText}>What I have done so far</p>
-        <h2 className={styles.sectionHeadText}>Work Experience.</h2>
+        <h2 className={styles.sectionHeadText}>Work Experience</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

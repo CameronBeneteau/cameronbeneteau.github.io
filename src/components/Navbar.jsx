@@ -3,8 +3,7 @@ import { Link } from "react-router-dom";
 
 import { styles } from "../styles";
 import { navLinks } from "../constants";
-import { logo, menu, close } from "../assets";
-import { links }from "../constants/index"
+import { links } from "../constants/index";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -18,7 +17,7 @@ const Navbar = () => {
         setScrolled(true);
       } else {
         setScrolled(false);
-        setActive('')
+        setActive("");
       }
     };
 
@@ -30,21 +29,21 @@ const Navbar = () => {
       sections.forEach((current) => {
         const sectionId = current.getAttribute("id");
         const sectionHeight = current.offsetHeight;
-        const sectionTop = current.getBoundingClientRect().top - sectionHeight * 0.2;
-        
+        const sectionTop =
+          current.getBoundingClientRect().top - sectionHeight * 0.2;
+
         if (sectionTop < 0 && sectionTop + sectionHeight > 0) {
           setActive(sectionId);
         }
-      })
-    }
+      });
+    };
 
     window.addEventListener("scroll", navbarHighlighter);
-
 
     return () => {
       window.removeEventListener("scroll", handleScroll);
       window.removeEventListener("scroll", navbarHighlighter);
-    }
+    };
   }, []);
 
   return (
@@ -68,11 +67,19 @@ const Navbar = () => {
               <span>|</span>
             </p>
           </Link>
-            <a href={links.github} target="_blank"><i className="fa-brands fa-github fa-xl cursor-pointer"></i></a>
-            <a href={links.linkedin} target="_blank"><i className="fa-brands fa-linkedin fa-xl cursor-pointer"></i></a>
-            <a href={links.resume} target="_blank"><i className="fa-solid fa-file-lines fa-xl cursor-pointer"></i></a>
-            <a href={`mailto:${links.schoolEmail}`} target="_blank"><i className="fa-solid fa-envelope fa-xl cursor-pointer"></i></a>
-          </div>
+          <a href={links.github} target="_blank">
+            <i className="fa-brands fa-github fa-xl cursor-pointer"></i>
+          </a>
+          <a href={links.linkedin} target="_blank">
+            <i className="fa-brands fa-linkedin fa-xl cursor-pointer"></i>
+          </a>
+          <a href={links.resume} target="_blank">
+            <i className="fa-solid fa-file-lines fa-xl cursor-pointer"></i>
+          </a>
+          <a href={`mailto:${links.schoolEmail}`} target="_blank">
+            <i className="fa-solid fa-envelope fa-xl cursor-pointer"></i>
+          </a>
+        </div>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
@@ -87,14 +94,13 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center">
-          <img
-            src={toggle ? close : menu}
-            alt="menu"
-            className="w-[28px] h-[28px] object-contain"
+        <div className="sm:hidden flex flex-1 justify-end items-center align-middle">
+          <i
+            className={
+              toggle ? "fa-solid fa-xmark fa-2xl" : "fa-solid fa-bars fa-xl"
+            }
             onClick={() => setToggle(!toggle)}
-          />
-
+          ></i>
           <div
             className={`${
               !toggle ? "hidden" : "flex"
