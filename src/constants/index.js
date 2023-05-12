@@ -386,8 +386,7 @@ const projects = [
   {
     name: "CamFinder",
     description:
-      "An automation tool used to submit business proposals to potential clients on LinkedIn. With over 2000 proposals sent to date, the tool has lead to new clients and and saved over 24 hours of manual work.",
-    // description: "An automation tool used to submit business proposals to prospective clients on LinkedIn. Since creation, over 2000 proposals have been sent, resulting in clients landed and saving over 24 hours of manual work.",
+      "An automation tool used to submit business proposals to potential clients on LinkedIn. With over 2000 proposals sent to date, this tool has lead to new clients and saved over 24 hours of manual work.",
     tags: [
       {
         name: "python",

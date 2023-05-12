@@ -46,7 +46,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am currently in my penultimate year pursuing a double degree in
+        I'm currently in my penultimate year pursuing a double degree in
         Mechatronics Engineering and Business at McMaster University. Throughout
         my degree, I have gained almost two years of experience working multiple
         software developer internships. My passion lies in developing innovative
