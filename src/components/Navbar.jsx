@@ -19,6 +19,7 @@ const Navbar = () => {
         setScrolled(false);
         setActive("");
       }
+      setToggle(false);
     };
 
     window.addEventListener("scroll", handleScroll);
@@ -62,29 +63,34 @@ const Navbar = () => {
               window.scrollTo(0, 0);
             }}
           >
-            <p className="text-white text-[18px] lg:text-[22px] font-bold cursor-pointer flex">
-              Cameron Beneteau &nbsp;
-              <span>|</span>
-            </p>
+            <div className="flex gap-x-3">
+              <img
+                src="../src/favicon.ico"
+                className="h-[30px] cursor-pointer"
+              />
+              <p className="text-white text-[18px] lg:text-[22px] font-bold cursor-pointer sm:flex hidden">
+                Cameron Beneteau
+              </p>
+            </div>
           </Link>
-          <a href={links.github} target="_blank">
-            <i className="fa-brands fa-github fa-xl cursor-pointer"></i>
-          </a>
-          <a href={links.linkedin} target="_blank">
+          <p className="text-white text-[26px] font-bold flex">|</p>
+          <Link to={links.linkedin} target="_blank">
             <i className="fa-brands fa-linkedin fa-xl cursor-pointer"></i>
-          </a>
-          <a href={links.resume} target="_blank">
+          </Link>
+          <Link to={links.github} target="_blank">
+            <i className="fa-brands fa-github fa-xl cursor-pointer"></i>
+          </Link>
+          <Link to={links.resume} target="_blank">
             <i className="fa-solid fa-file-lines fa-xl cursor-pointer"></i>
-          </a>
-          <a href={`mailto:${links.schoolEmail}`} target="_blank">
+          </Link>
+          <Link to={`mailto:${links.schoolEmail}`} target="_blank">
             <i className="fa-solid fa-envelope fa-xl cursor-pointer"></i>
-          </a>
+          </Link>
         </div>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
-              id={"navItem-" + nav.id}
               className={`${
                 active === nav.id ? "text-white" : "text-secondary"
               } hover:text-white text-[18px] font-medium cursor-pointer`}
@@ -102,9 +108,10 @@ const Navbar = () => {
             onClick={() => setToggle(!toggle)}
           ></i>
           <div
-            className={`${
-              !toggle ? "hidden" : "flex"
+            className={`transition-all duration-500 ${
+              toggle ? "opacity-100" : "opacity-0"
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
+            style={{ animation: "fadeIn 5s" }}
           >
             <ul className="list-none flex justify-end items-start flex-1 flex-col gap-4">
               {navLinks.map((nav) => (

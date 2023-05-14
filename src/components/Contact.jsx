@@ -1,4 +1,5 @@
 import { useState, useRef } from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -110,18 +111,18 @@ const Contact = () => {
           </label>
           <div className="flex items-center justify-between gap-x-3">
             <div className="flex items-center gap-x-4">
-              <a href={links.github} target="_blank">
-                <i className="fa-brands fa-github fa-2xl cursor-pointer"></i>
-              </a>
-              <a href={links.linkedin} target="_blank">
-                <i className="fa-brands fa-linkedin fa-2xl cursor-pointer"></i>
-              </a>
-              <a href={links.resume} target="_blank">
-                <i className="fa-solid fa-file-lines fa-2xl cursor-pointer"></i>
-              </a>
-              <a href={`mailto:${links.schoolEmail}`} target="_blank">
-                <i className="fa-solid fa-envelope fa-2xl cursor-pointer"></i>
-              </a>
+              <Link to={links.linkedin} target="_blank">
+                <i className="fa-brands fa-linkedin fa-xl cursor-pointer"></i>
+              </Link>
+              <Link to={links.github} target="_blank">
+                <i className="fa-brands fa-github fa-xl cursor-pointer"></i>
+              </Link>
+              <Link to={links.resume} target="_blank">
+                <i className="fa-solid fa-file-lines fa-xl cursor-pointer"></i>
+              </Link>
+              <Link to={`mailto:${links.schoolEmail}`} target="_blank">
+                <i className="fa-solid fa-envelope fa-xl cursor-pointer"></i>
+              </Link>
             </div>
             <button
               type="submit"

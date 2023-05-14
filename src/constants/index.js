@@ -190,7 +190,7 @@ const experiences = [
     company_link: "https://www.caseware.com/",
     icon: caseware,
     iconBg: "#E6DEDD", // #383E56
-    date: "September 2022 - August 2023",
+    date: "September 2022 - Present",
     points: [
       "Developed a repo-wide full stack feature flag application using Angular, NestJS and AWS, which gave developers a fast and simple way to deploy code, test it and release hotfixes or updates as required.",
       "Modified workflow files to optimize GitHub CI/CD pipelines, resulting in increased developer productivity and lower operating costs.",
@@ -274,6 +274,27 @@ const testimonials = [
 
 const projects = [
   {
+    name: "CamFinder",
+    description:
+      "An automation tool used to submit business proposals to potential clients on LinkedIn. With over 2000 proposals sent to date, this tool has lead to new clients and saved over 24 hours of manual work.",
+    tags: [
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "selenium",
+        color: "green-text-gradient",
+      },
+      {
+        name: "linkedin",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: camFinder,
+    source_code_link: "https://github.com/CameronBeneteau/CamFinder",
+  },
+  {
     name: "Tenacious Tanks",
     description:
       "A two-player turn-based strategy game inspired by the classic arcade game 'Scorched Earth'. With every match featuring a randomly generated terrain, no two battles are ever the same.",
@@ -320,27 +341,6 @@ const projects = [
     source_code_link: "https://github.com/CameronBeneteau/Super_Smash_Bros",
   },
   {
-    name: "Infected",
-    description:
-      "A turn-based strategy game inspired by the arcade game 'Chain Reaction'. Success demands careful planning and calculated moves to outsmart your opponents. Made during Massey Hacks III.",
-    tags: [
-      {
-        name: "python",
-        color: "yellow-text-gradient",
-      },
-      {
-        name: "pygame",
-        color: "lime-text-gradient",
-      },
-      {
-        name: "hackathon",
-        color: "green-text-gradient",
-      },
-    ],
-    image: infected,
-    source_code_link: "https://github.com/CameronBeneteau/Infected",
-  },
-  {
     name: "Super Mario Bros",
     description:
       "A single-player platforming game inspired by the famous arcade game 'Super Mario Bros'. Features multiple levels filled with challenging obstacles and exciting collectibles.",
@@ -384,25 +384,25 @@ const projects = [
       "https://github.com/CameronBeneteau/cameronbeneteau.github.io",
   },
   {
-    name: "CamFinder",
+    name: "Infected",
     description:
-      "An automation tool used to submit business proposals to potential clients on LinkedIn. With over 2000 proposals sent to date, this tool has lead to new clients and saved over 24 hours of manual work.",
+      "A turn-based strategy game inspired by the arcade game 'Chain Reaction'. Success demands careful planning and calculated moves to outsmart your opponents. Made during Massey Hacks III.",
     tags: [
       {
         name: "python",
         color: "yellow-text-gradient",
       },
       {
-        name: "selenium",
-        color: "green-text-gradient",
+        name: "pygame",
+        color: "lime-text-gradient",
       },
       {
-        name: "linkedin",
-        color: "blue-text-gradient",
+        name: "hackathon",
+        color: "green-text-gradient",
       },
     ],
-    image: camFinder,
-    source_code_link: "https://github.com/CameronBeneteau/CamFinder",
+    image: infected,
+    source_code_link: "https://github.com/CameronBeneteau/Infected",
   },
 ];
 
