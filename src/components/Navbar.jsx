@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { links } from "../constants/index";
+import favicon from "../favicon.ico";
 
 const Navbar = () => {
   const [active, setActive] = useState("");
@@ -64,10 +65,7 @@ const Navbar = () => {
             }}
           >
             <div className="flex gap-x-3">
-              <img
-                src="../src/favicon.ico"
-                className="h-[30px] cursor-pointer"
-              />
+              <img src={favicon} className="h-[30px] cursor-pointer" />
               <p className="text-white text-[18px] lg:text-[22px] font-bold cursor-pointer sm:flex hidden">
                 Cameron Beneteau
               </p>
