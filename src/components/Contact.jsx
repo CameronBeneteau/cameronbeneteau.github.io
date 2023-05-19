@@ -1,5 +1,4 @@
 import { useState, useRef } from "react";
-import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
@@ -109,28 +108,12 @@ const Contact = () => {
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
-          <div className="flex items-center justify-between gap-x-3">
-            <div className="flex items-center gap-x-4">
-              <Link to={links.linkedin} target="_blank">
-                <i className="fa-brands fa-linkedin fa-xl cursor-pointer"></i>
-              </Link>
-              <Link to={links.github} target="_blank">
-                <i className="fa-brands fa-github fa-xl cursor-pointer"></i>
-              </Link>
-              <Link to={links.resume} target="_blank">
-                <i className="fa-solid fa-file-lines fa-xl cursor-pointer"></i>
-              </Link>
-              <Link to={`mailto:${links.schoolEmail}`} target="_blank">
-                <i className="fa-solid fa-envelope fa-xl cursor-pointer"></i>
-              </Link>
-            </div>
-            <button
-              type="submit"
-              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-            >
-              {loading ? "Sending..." : "Send"}
-            </button>
-          </div>
+          <button
+            type="submit"
+            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+          >
+            {loading ? "Sending..." : "Send"}
+          </button>
         </form>
       </motion.div>
 
