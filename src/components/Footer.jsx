@@ -3,7 +3,8 @@ import { SectionWrapper } from "../hoc";
 const Footer = () => {
   return (
     <div className="text-center">
-      <p>Cameron Beneteau's Portfolio © {new Date().getFullYear()}</p>
+      <p>{`</>`} with 🫶🏻 and 🧋</p>
+      <p>Copyright © {new Date().getFullYear()} Cameron Beneteau</p>
     </div>
   );
 };

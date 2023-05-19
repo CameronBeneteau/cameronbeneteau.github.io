@@ -62,9 +62,9 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         In my free time, I enjoy staying active by working out and playing
-        sports. I am a fan of Formula 1 racing and am fascinated by the complex
-        engineering of the cars. As a software developer, I am always eager to
-        explore new technologies and collaborate with others. I have
+        sports. I am a fan of Formula 1 racing and am fascinated by the
+        engineering behind the cars. As an engineer & developer, I am always
+        eager to explore new technologies and collaborate with others. I have
         participated in several hackathons as both a participant and executive
         organizer. I also have leadership experience as a project manager for
         the McMaster Rocketry Team, where I oversaw planning and integration of
