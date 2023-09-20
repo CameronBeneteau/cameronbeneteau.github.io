@@ -409,8 +409,7 @@ const projects = [
 const links = {
   github: "https://github.com/CameronBeneteau",
   linkedin: "https://www.linkedin.com/in/cameronbeneteau/",
-  resume:
-    "https://drive.google.com/file/d/1Wr_j08V27YnbeqgQ2-0m9rDk0eR4o7fI/view?usp=sharing",
+  resume: "Cameron_Beneteau_Resume.pdf",
   personalEmail: "cameron.bellewood@gmail.com",
   schoolEmail: "beneteac@mcmaster.ca",
 };
