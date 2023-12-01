@@ -292,7 +292,7 @@ const projects = [
       },
     ],
     image: camFinder,
-    source_code_link: "https://github.com/CameronBeneteau/CamFinder",
+    source_code_link: "https://github.com/cameronbeneteau/CamFinder",
   },
   {
     name: "Tenacious Tanks",
@@ -313,7 +313,7 @@ const projects = [
       },
     ],
     image: tenaciousTanks,
-    source_code_link: "https://github.com/CameronBeneteau/Tenacious_Tanks",
+    source_code_link: "https://github.com/cameronbeneteau/tenacious-tanks",
   },
   {
     name: "Super Smash Bros",
@@ -338,7 +338,7 @@ const projects = [
       },
     ],
     image: superSmashBros,
-    source_code_link: "https://github.com/CameronBeneteau/Super_Smash_Bros",
+    source_code_link: "https://github.com/cameronbeneteaus/super-smash-bros",
   },
   {
     name: "Super Mario Bros",
@@ -359,7 +359,7 @@ const projects = [
       },
     ],
     image: superMarioBros,
-    source_code_link: "https://github.com/CameronBeneteau/Super_Mario_Bros",
+    source_code_link: "https://github.com/cameronbeneteau/super-mario-bros",
   },
   {
     name: "Personal Website",
@@ -381,7 +381,7 @@ const projects = [
     ],
     image: personalWebsite,
     source_code_link:
-      "https://github.com/CameronBeneteau/cameronbeneteau.github.io",
+      "https://github.com/cameronbeneteau/cameronbeneteau.github.io",
   },
   {
     name: "Infected",
@@ -402,12 +402,12 @@ const projects = [
       },
     ],
     image: infected,
-    source_code_link: "https://github.com/CameronBeneteau/Infected",
+    source_code_link: "https://github.com/cameronbeneteau/infected",
   },
 ];
 
 const links = {
-  github: "https://github.com/CameronBeneteau",
+  github: "https://github.com/cameronbeneteau",
   linkedin: "https://www.linkedin.com/in/cameronbeneteau/",
   resume: "Cameron_Beneteau_resume.pdf",
   personalEmail: "cameron.bellewood@gmail.com",
