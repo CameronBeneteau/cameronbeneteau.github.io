@@ -338,7 +338,7 @@ const projects = [
       },
     ],
     image: superSmashBros,
-    source_code_link: "https://github.com/cameronbeneteaus/super-smash-bros",
+    source_code_link: "https://github.com/cameronbeneteau/super-smash-bros",
   },
   {
     name: "Super Mario Bros",
