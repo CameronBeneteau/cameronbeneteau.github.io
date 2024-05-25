@@ -181,16 +181,39 @@ const technologies = {
     textCol: "#FFFFFF",
     backCol: "#FF9900",
   },
+  python: {
+    name: "Python",
+    textCol: "#FFFFFF",
+    backCol: "#FFD343",
+  },
+  matlab: {
+    name: "MATLAB",
+    textCol: "#FFFFFF",
+    backCol: "#ED6B0F",
+  }
 };
 
 const experiences = [
+  {
+    title: "Quantitative Developer Intern",
+    company_name: "Royal Bank of Canada",
+    company_link: "https://www.rbc.com/",
+    icon: rbc,
+    iconBg: "#E6DEDD", // #383E56
+    date: "May 2024 - August 2024",
+    points: [],
+    technologies: [
+      // technologies.python,
+      // technologies.matlab
+    ],
+  },
   {
     title: "Software Developer Intern",
     company_name: "Caseware",
     company_link: "https://www.caseware.com/",
     icon: caseware,
     iconBg: "#E6DEDD", // #383E56
-    date: "September 2022 - Present",
+    date: "September 2022 - April 2024",
     points: [
       "Developed a repo-wide full stack feature flag application using Angular, NestJS and AWS, which gave developers a fast and simple way to deploy code, test it and release hotfixes or updates as required.",
       "Modified workflow files to optimize GitHub CI/CD pipelines, resulting in increased developer productivity and lower operating costs.",
