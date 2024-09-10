@@ -47,7 +47,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I'm currently in my final year pursuing a double degree in
-        Mechatronics Engineering and Business at McMaster University. Throughout
+        Mechatronics Engineering & Business at McMaster University. Throughout
         my degree, I have gained over two years of experience working multiple
         software developer internships. My passion lies in developing innovative
         solutions and increasing efficiency through optimized pipelines and

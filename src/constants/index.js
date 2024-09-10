@@ -201,10 +201,16 @@ const experiences = [
     icon: rbc,
     iconBg: "#E6DEDD", // #383E56
     date: "May 2024 - August 2024",
-    points: [],
+    points: [
+      "Enhanced the efficiency of backtest models by reducing runtime by 30% and data processing times by 95% by optimizing Python and MATLAB algorithms, ensuring timely data availability for market opening decisions.",
+      "Spearheaded CI/CD pipeline enhancements that automated code deployments for models and backtest libraries, resulting in a 50% reduction in deployment times and a significant decrease in manual errors.",
+      "Engineered ETL pipelines using AWS technologies (S3, SageMaker, PySpark) to enable machine-learning strategy exploration, facilitating a 20% increase in research output by providing streamlined data processing capabilities.",
+      "Generalized backtest frameworks to accept custom configuration files and environment variables, increasing researchers' control over analyses and enhancing flexibility in simulation parameters by 40%."
+    ],
     technologies: [
-      // technologies.python,
-      // technologies.matlab
+      technologies.python,
+      technologies.matlab,
+      technologies.aws
     ],
   },
   {
