@@ -38,7 +38,7 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Who am I</p>
+        {/* <p className={styles.sectionSubText}>Who am I</p> */}
         <h2 className={styles.sectionHeadText}>About Me</h2>
       </motion.div>
 
@@ -53,7 +53,7 @@ const About = () => {
         solutions and increasing efficiency through optimized pipelines and
         workflows, which I believe can add value to any organization. I am also
         interested in areas such as data analytics, machine learning, AI, and
-        the fintech industry, particularly with quantitative analysis and
+        the fintech industry, particularly with quantitative finance and
         algorithmic trading.
       </motion.p>
 
@@ -65,11 +65,11 @@ const About = () => {
         sports. I am a fan of Formula 1 racing and am fascinated by the
         engineering behind the cars. As an engineer & developer, I am always
         eager to explore new technologies and collaborate with others. I have
-        participated in several hackathons as both a participant and executive
-        organizer. I also have leadership experience as a project manager for
-        the McMaster Rocketry Team, where I oversaw planning and integration of
-        the first successful high-powered rocket launch our University has ever
-        had! Check out our 3km (10,000ft){" "}
+        participated in several hackathons such as Hack the North and DeltaHacks
+        as both a participant and executive organizer. I also have leadership
+        experience as a project manager for the McMaster Rocketry Team, where I
+        oversaw planning and integration of the first successful high-powered
+        rocket launch our University has ever had! Check out our 3km (10,000ft){" "}
         <u>
           <a href="https://www.youtube.com/watch?v=4lxF2DUAMRA" target="_blank">
             launch video
