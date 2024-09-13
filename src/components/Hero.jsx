@@ -29,6 +29,7 @@ const Hero = () => {
               options={{
                 strings: [
                   "Quantitative Developer",
+                  "Portfolio Manager",
                   "Software Developer",
                   "Quantitative Analyst",
                   "Project Manager",
