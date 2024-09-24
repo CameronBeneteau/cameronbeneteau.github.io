@@ -27,6 +27,7 @@ import infected from "./projects/infected.png";
 import superMarioBros from "./projects/super-mario-bros.png";
 import personalWebsite from "./projects/personal-website.png";
 import camFinder from "./projects/cam-finder.png";
+import alignedAi from "./projects/aligned-ai.jpg";
 
 export {
   backend,
@@ -55,4 +56,5 @@ export {
   superMarioBros,
   personalWebsite,
   camFinder,
+  alignedAi
 };

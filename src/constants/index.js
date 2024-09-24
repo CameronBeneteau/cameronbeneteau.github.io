@@ -24,6 +24,7 @@ import {
   superMarioBros,
   personalWebsite,
   camFinder,
+  alignedAi,
   threejs,
 } from "../assets";
 
@@ -242,9 +243,9 @@ const experiences = [
     iconBg: "#E6DEDD", // #383E56
     date: "May 2022 - August 2022",
     points: [
-      "Developed and implemented front-end web components using HTML, CSS, and Bootstrap.",
-      "Redesigned full stack features using JavaScript and jQuery to improve navigation and accessibility of internal & external websites generating over 1000 & 3000 daily page views.",
-      "Modified back-end process which reduced developers time in half for article posting and other duties.",
+      "Won 1st place in algorithmic trading competition using Python and Backtrader by creating an algorithm and strategy presentation.",
+      "Redesigned full stack features using JavaScript and jQuery to improve navigation and accessibility of internal & external websites generating over 60,000 daily page views.",
+      "Modified back-end processes, resulting in a 50% reduction in time spent on publishing tasks for authors and developers.",
     ],
     technologies: [
       technologies.javascript,
@@ -302,6 +303,30 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "aligned.ai",
+    description: "A matchmaking platform powered by live AI conversations and personality embeddings in a vector database, using similarity algorithms to rank and present top matches. Winner of Hack the North 11.",
+    tags: [
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "react",
+        color: "light-blue-text-gradient",
+      },
+      {
+        name: "nextjs",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "cohere",
+        color: "green-text-gradient",
+      },
+    ],
+    image: alignedAi,
+    source_code_link: "https://github.com/dannyl1u/aligned.ai"
+  },
   {
     name: "CamFinder",
     description:
