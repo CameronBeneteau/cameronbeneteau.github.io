@@ -30,7 +30,7 @@ const Hero = () => {
                 strings: [
                   "Quantitative Developer",
                   "Portfolio Manager",
-                  "Software Developer",
+                  "Software Engineer",
                   "Quantitative Analyst",
                   "Project Manager",
                   "Leader",

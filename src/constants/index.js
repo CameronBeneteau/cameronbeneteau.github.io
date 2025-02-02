@@ -215,7 +215,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer Intern",
+    title: "Software Engineer Intern",
     company_name: "Caseware",
     company_link: "https://www.caseware.com/",
     icon: caseware,
@@ -236,7 +236,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer Intern",
+    title: "Software Engineer Intern",
     company_name: "Royal Bank of Canada",
     company_link: "https://www.rbc.com/",
     icon: rbc,
@@ -255,7 +255,7 @@ const experiences = [
     ],
   },
   {
-    title: "Software Developer Intern",
+    title: "Software Engineer Intern",
     company_name: "CenterLine",
     company_link: "https://www.cntrline.com/",
     icon: centerline,
