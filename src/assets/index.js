@@ -28,6 +28,9 @@ import superMarioBros from "./projects/super-mario-bros.png";
 import personalWebsite from "./projects/personal-website.png";
 import camFinder from "./projects/cam-finder.png";
 import alignedAi from "./projects/aligned-ai.jpg";
+import assistiveHand from "./projects/assistive-hand.png";
+import pairsTrading from "./projects/pairs-trading.png";
+import fundMonitor from "./projects/fund-monitor.png";
 
 export {
   backend,
@@ -56,5 +59,8 @@ export {
   superMarioBros,
   personalWebsite,
   camFinder,
-  alignedAi
+  alignedAi,
+  assistiveHand,
+  pairsTrading,
+  fundMonitor,
 };

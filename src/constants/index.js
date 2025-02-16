@@ -1,3 +1,4 @@
+import { color } from "framer-motion";
 import {
   mobile,
   backend,
@@ -25,6 +26,9 @@ import {
   personalWebsite,
   camFinder,
   alignedAi,
+  assistiveHand,
+  pairsTrading,
+  fundMonitor,
   threejs,
 } from "../assets";
 
@@ -304,6 +308,50 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Fund Monitor (WIP)",
+    description: "A system to track the $150K AUM portfolio of McMaster's Investment Council, providing granular insights into allocation, performance, risk, and transactions for enhanced decision-making.",
+    tags: [
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "pandas",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "yfinance",
+        color: "purple-text-gradient",
+      }
+    ],
+    image: fundMonitor,
+    source_code_link: "https://github.com/DFIC-Quant-Fund",
+  },
+  {
+    name: "Assistive Hand (WIP)",
+    description: "Final year engineering capstone project. A six-degree-of-freedom Han's Robot arm that autonomously picks up and delivers objects to users, utilizing computer vision, machine learning, and kinematics.",
+    tags: [
+      {
+        name: "c++",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "opencv",
+        color: "green-text-gradient",
+      },
+      {
+        name: "arduino",
+        color: "light-blue-text-gradient",
+      },
+    ],
+    image: assistiveHand,
+    source_code_link: "https://github.com/RashadBhuiyan/Autonomous_Robot_Handover",
+  },
+  {
     name: "aligned.ai",
     description: "A matchmaking platform powered by live AI conversations and personality embeddings in a vector database, using similarity algorithms to rank and present top matches. Winner of Hack the North 11.",
     tags: [
@@ -328,9 +376,9 @@ const projects = [
     source_code_link: "https://github.com/dannyl1u/aligned.ai"
   },
   {
-    name: "CamFinder",
+    name: "LinkedIn Automation",
     description:
-      "An automation tool used to submit business proposals to potential clients on LinkedIn. With over 8000 proposals sent to date, this tool has lead to new clients and saved over 150 hours of manual work.",
+      "An automation tool used to submit business proposals to potential clients on LinkedIn. With over 30,000 proposals sent to date, this tool has lead to new clients and saved 100s of hours of manual work.",
     tags: [
       {
         name: "python",
@@ -347,6 +395,26 @@ const projects = [
     ],
     image: camFinder,
     source_code_link: "https://github.com/cameronbeneteau/CamFinder",
+  },
+  {
+    name: "Pairs Trading",
+    description: "An automated mean-reversion quantitative strategy that identifies pairs of cointegrated stocks and executes trades based on the spread between them, achieving a net profit of 16%.",
+    tags: [
+      {
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "quantconnect",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "pandas",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: pairsTrading,
+    source_code_link: "https://github.com/DFIC-Quant-Fund/Individual-F2023/tree/main/Cameron%20-%20PairsTrading",
   },
   {
     name: "Tenacious Tanks",
