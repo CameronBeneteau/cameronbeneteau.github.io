@@ -316,6 +316,10 @@ const projects = [
         color: "yellow-text-gradient",
       },
       {
+        name: "sql",
+        color: "orange-text-gradient",
+      },
+      {
         name: "pandas",
         color: "pink-text-gradient",
       },
