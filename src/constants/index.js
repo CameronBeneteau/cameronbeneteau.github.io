@@ -308,7 +308,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Fund Monitor (WIP)",
+    name: "DFIC Fund Monitor",
     description: "A system to track the $150K AUM portfolio of McMaster's Investment Council, providing granular insights into allocation, performance, risk, and transactions for enhanced decision-making.",
     tags: [
       {
@@ -316,24 +316,24 @@ const projects = [
         color: "yellow-text-gradient",
       },
       {
+        name: "typescript",
+        color: "light-blue-text-gradient",
+      },
+      {
         name: "sql",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "aws",
         color: "orange-text-gradient",
-      },
-      {
-        name: "pandas",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "yfinance",
-        color: "purple-text-gradient",
       }
     ],
     image: fundMonitor,
     source_code_link: "https://github.com/DFIC-Quant-Fund",
   },
   {
-    name: "Assistive Hand (WIP)",
-    description: "Final year engineering capstone project. A six-degree-of-freedom Han's Robot arm that autonomously picks up and delivers objects to users, utilizing computer vision, machine learning, and kinematics.",
+    name: "Assistive Hand",
+    description: "Final year engineering capstone project. A six-degree-of-freedom Han's Robot arm that autonomously picks up and delivers objects to users, utilizing computer vision and inverse kinematics.",
     tags: [
       {
         name: "c++",
@@ -344,7 +344,7 @@ const projects = [
         color: "yellow-text-gradient",
       },
       {
-        name: "opencv",
+        name: "pcl",
         color: "green-text-gradient",
       },
       {
