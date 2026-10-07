@@ -19,6 +19,7 @@ import {
   caseware,
   rbc,
   centerline,
+  rivianvw,
   tenaciousTanks,
   superSmashBros,
   infected,
@@ -29,6 +30,7 @@ import {
   assistiveHand,
   pairsTrading,
   fundMonitor,
+  macFormulaElectric,
   threejs,
 } from "../assets";
 
@@ -195,10 +197,34 @@ const technologies = {
     name: "MATLAB",
     textCol: "#FFFFFF",
     backCol: "#ED6B0F",
-  }
+  },
+  cpp: {
+    name: "C++",
+    textCol: "#FFFFFF",
+    backCol: "#00599C",
+  },
+  rust: {
+    name: "Rust",
+    textCol: "#FFFFFF",
+    backCol: "#B7410E",
+  },
 };
 
 const experiences = [
+  {
+    title: "OTA Software and Integration Engineer",
+    company_name: "Rivian and Volkswagen Group Technologies",
+    company_link: "https://rivianvw.tech/",
+    icon: rivianvw,
+    iconBg: "#E6DEDD", // #383E56
+    date: "September 2025 - Present",
+    points: [],
+    technologies: [
+      technologies.cpp,
+      technologies.python,
+      technologies.rust,
+    ],
+  },
   {
     title: "Quantitative Developer Intern",
     company_name: "Royal Bank of Canada",
@@ -307,6 +333,30 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "EV Formula Racecar",
+    description: "Led development of features including automated CI/CD pipelines for builds and testing, over-the-air (OTA) firmware updates, and wireless data logging with live visualization of vehicle metrics.",
+    tags: [
+      {
+        name: "c++",
+        color: "blue-text-gradient",
+      },
+      { 
+        name: "python",
+        color: "yellow-text-gradient",
+      },
+      {
+        name: "stm32",
+        color: "grey-text-gradient",
+      },
+      {
+        name: "canbus",
+        color: "green-text-gradient",
+      },
+    ],
+    image: macFormulaElectric,
+    source_code_link: "https://github.com/macformula/racecar",
+  },
   {
     name: "DFIC Fund Monitor",
     description: "A system to track the $150K AUM portfolio of McMaster's Investment Council, providing granular insights into allocation, performance, risk, and transactions for enhanced decision-making.",

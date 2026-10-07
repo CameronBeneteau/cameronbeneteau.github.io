@@ -20,6 +20,7 @@ import threejs from "./tech/threejs.svg";
 import caseware from "./companies/caseware.png";
 import rbc from "./companies/rbc.png";
 import centerline from "./companies/centerline.png";
+import rivianvw from "./companies/rivianvw.png";
 
 import tenaciousTanks from "./projects/tenacious-tanks.png";
 import superSmashBros from "./projects/super-smash-bros.png";
@@ -31,6 +32,7 @@ import alignedAi from "./projects/aligned-ai.jpg";
 import assistiveHand from "./projects/assistive-hand.png";
 import pairsTrading from "./projects/pairs-trading.png";
 import fundMonitor from "./projects/fund-monitor.png";
+import macFormulaElectric from "./projects/mac-formula-electric.png";
 
 export {
   backend,
@@ -53,6 +55,7 @@ export {
   caseware,
   rbc,
   centerline,
+  rivianvw,
   tenaciousTanks,
   superSmashBros,
   infected,
@@ -63,4 +66,5 @@ export {
   assistiveHand,
   pairsTrading,
   fundMonitor,
+  macFormulaElectric,
 };
